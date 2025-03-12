@@ -14,8 +14,8 @@ export const Footer = ({ elementRef }) => {
     >
       <div className="w-full flex justify-between lg:max-w-4xl xl:max-w-7xl items-center flex-col px-4 text-center lg:flex-row lg:justify-between md:max-w-8xl">
         <p>
-          © {year} Todos los derechos reservados Dr. Dany Dent. Diseño web y
-          posicionamiento realizado por
+          © {year} Todos los derechos reservados Dany Dent odontología
+          integral. Diseño web y posicionamiento realizado por
           <a
             href="https://dentarios.com.mx"
             target="_blank"
@@ -35,24 +35,6 @@ export const Footer = ({ elementRef }) => {
             rel="noopener noreferrer"
           >
             <WhatsApp className="w-5 h-5" />
-          </a>
-          <a
-            title="Ir a la página de Instagram de Dra. Claudia Olmos"
-            href="https://www.instagram.com/dra.claudiaolmos/"
-            className="w-12 h-12 rounded-full border-white border-2 flex justify-center items-center transition duration-300 fill-white hover:duration-300 hover:transition hover:bg-white hover:text-gray-800"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Instagram className="w-5 h-5" />
-          </a>
-          <a
-            title="Ir a la página de Facebook de Dra. Claudia Olmos"
-            href="https://www.facebook.com/profile.php?id=61562673012415"
-            className="w-12 h-12 rounded-full border-white border-2 flex justify-center items-center transition duration-300 fill-white hover:duration-300 hover:transition hover:bg-white hover:text-gray-800"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Facebook className="w-5 h-5" />
           </a>
         </div>
       </div>

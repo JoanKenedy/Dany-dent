@@ -10,7 +10,7 @@ export const CardPromo = ({ imgSrc, alt }) => {
         <img
           src={imgSrc}
           alt={alt}
-          className="w-full rounded-2xl mb-5 md:hover:scale-90 duration-300"
+          className="w-full rounded-2xl mb-5 md:hover:scale-90 duration-300 shadow-xl shadow-gray-500/20"
           width="1080"
           height="1080"
         />

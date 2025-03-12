@@ -17,7 +17,7 @@ export const Map = ({ divRef }) => {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       />
-      <div className="container-map rounded-xl py-7 px-4 my-5 text-white text-center flex justify-center items-center flex-col bg-gradient-to-tr from-violet-600 to-secondary/90 md:shadow-gray-800 md:shadow-[-19px_3px_22px_-11px] md:h-[600px] md:max-w-[500px] md:p-8">
+      <div className="container-map rounded-xl py-7 px-4 my-5 text-white text-center flex justify-center items-center flex-col bg-sky-900 md:shadow-[-19px_3px_22px_-11px] md:h-[600px] md:max-w-[500px] md:p-8">
         <h2 className=" text-2xl mb-4 font-semibold">Contáctanos</h2>
         <p className=" mb-6 font-semibold">
           ¿Tienes alguna necesidad dental en especial? Te podemos ayudar.

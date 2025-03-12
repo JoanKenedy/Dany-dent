@@ -5,6 +5,7 @@ import promo3 from "../assets/promo-3.jpeg";
 import promo4 from "../assets/promo-4.jpeg";
 import promo5 from "../assets/promo-5.jpeg";
 import promo6 from "../assets/promo-6.jpeg";
+import promo7 from "../assets/promo-7.jpeg";
 import { TitleSection } from "./TitleSection";
 
 // eslint-disable-next-line react/prop-types
@@ -32,6 +33,10 @@ export const Promotions = ({ divRef }) => {
     },
     {
       imgSrc: promo6,
+      alt: "Promoción inicial",
+    },
+    {
+      imgSrc: promo7,
       alt: "Promoción inicial",
     },
   ];

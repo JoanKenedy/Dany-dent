@@ -53,7 +53,7 @@ export const NavBar = ({ Function }) => {
                 <a
                   href="#"
                   onClick={() => setIsOpen(false)}
-                  className="block py-2 px-3 text-white bg-primary rounded transition lg:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl lg:text-secondary"
+                  className="block py-2 px-3 text-white bg-primary rounded transition lg:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl lg:text-black"
                   aria-current="page"
                 >
                   Inicio
@@ -97,7 +97,7 @@ export const NavBar = ({ Function }) => {
               </li>
               <li>
                 <a
-                  href="tel:5565095139"
+                  href="tel:3325205675"
                   onClick={() => setIsOpen(false)}
                   className="block py-2 px-3 text-gray-900 transition rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl"
                 >

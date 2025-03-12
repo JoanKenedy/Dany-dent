@@ -11,22 +11,22 @@ export const About = ({ divRef }) => {
     {
       id: 1,
       icon: <Star className="w-7 h-7 text-white mr-2" />,
-      title: "Excelentes Servicios",
+      title: "Honestidad",
     },
     {
       id: 2,
       icon: <Tool className="w-7 h-7 mr-2 text-white" />,
-      title: "Tecnología Avanzada",
+      title: "Respeto",
     },
     {
       id: 3,
       icon: <Tooth className="w-7 h-7 mr-2 text-white" />,
-      title: "Atención Profesional",
+      title: "Honradez",
     },
     {
       id: 4,
       icon: <Certificate className="w-7 h-7 mr-2 text-white" />,
-      title: "Confianza y Calidad",
+      title: "Solidaridad",
     },
   ];
 
@@ -46,15 +46,24 @@ export const About = ({ divRef }) => {
         />
         <article className="w-full text-center mb-3">
           <TitleSection title="Bienvenidos a Dany Dent" />
-          <p className="text-lg text-start mt-4">
+          <p className="text-base text-justify mt-1">
             Somos un equipo de profesionales de la odontología comprometidos con
             la salud y la belleza de tu sonrisa. Liderados por el Dr. Daniel
             Jiménez, especializado en crear sonrisas perfectas, nuestra clínica
             ofrece una amplia gama de servicios para satisfacer tus necesidades
             dentales. Contamos con la experiencia necesaria para que confies en
-            nostros. ¿Quieres saber más sobre nuestros servicios o programar una
-            cita? No dudes en contactarnos. Estamos aquí para ayudarte a crear
-            la sonrisa que siempre has deseado.
+            nosotros.
+          </p>
+          <TitleSection title="Misión" />
+          <p className="text-base text-justify mt-1">
+            Proporcionar un servicio de calidad y comodidad para devolver la
+            salud bucodental de nuestros pacientes dando una experiencia
+            agradable y confortable
+          </p>
+          <TitleSection title="Visión" />
+          <p className="text-base text-justify mt-1">
+            Ser una clínica líder en atención al cliente, innovación, excelencia
+            y calidad para nuestros pacientes
           </p>
           <ul className="grid w-full grid-cols-1 place-content-center place-items-center gap-3 mt-7 lg:grid-cols-2">
             {valuePoints.map((item) => (

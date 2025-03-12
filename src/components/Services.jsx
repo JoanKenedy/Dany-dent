@@ -2,7 +2,7 @@ import { CardService } from "./CardService";
 import { TitleSection } from "./TitleSection";
 import ortodoncia from "../assets/orto.webp";
 import endodoncia from "../assets/endodoncia.webp";
-import cirugia from "../assets/cirugia.webp";
+import cirugia from "../assets/rehabilitacion.png";
 import implante from "../assets/implante.png";
 import periodoncia from "../assets/periodoncia.webp";
 import general from "../assets/gral.jpg";
@@ -77,7 +77,14 @@ export const Services = ({ divRef }) => {
       ref={divRef}
     >
       <div className="w-full px-4 flex justify-center items-center flex-col max-w-7xl">
-        <TitleSection title="Servicios" />
+        <div className="title w-full flex justify-center items-center">
+          <hr className="w-full border-2 border-primary rounded-lg max-w-96" />
+          <h2 className="text-nowrap text-2xl font-bold text-primary uppercase lg:text-4xl">
+            Servicios
+          </h2>
+          <hr className="w-full border-2 border-primary rounded-lg max-w-96" />
+        </div>
+
         <small className="text-primary">
           Da click en la imagen para saber más
         </small>
